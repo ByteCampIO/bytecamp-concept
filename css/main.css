@@ -5,4 +5,22 @@ body {
 
 .home {
   margin-top: 50px;
+  position: relative;
+}
+
+.home .soon {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  font-size: 8rem;
+  margin: auto;
+  width: 300px;
+  text-shadow: 0 0 0.5em #fff
+}
+
+@media screen and (max-width: 768px) {
+  .home .soon {
+    font-size: 4rem;
+  }
 }

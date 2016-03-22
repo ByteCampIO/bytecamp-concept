@@ -161,6 +161,8 @@ p {
 
 .how {
   background: #A8CA5F;
+  border-bottom: 0.1rem solid #333;
+  padding-bottom: 6rem;
 }
 
 @media screen and (max-width: 991px) {

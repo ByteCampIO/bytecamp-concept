@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-nav > li > a {
   font-family: "Roboto Slab";
   font-size: 1.8rem;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {

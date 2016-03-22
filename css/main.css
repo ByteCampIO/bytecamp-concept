@@ -5,7 +5,7 @@
 body {
   background: #89CDE6;
   font-family: Roboto;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,6 +108,16 @@ p {
 
 .home .learn-more {
   width: calc(50% - 1rem);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .home .slogans .fuel {
+    font-size: 3.55rem;
+  }
+
+  .home .slogans hr {
+    margin: 1.5rem 0;
+  }
 }
 
 @media screen and (max-width: 991px) {

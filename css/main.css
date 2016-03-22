@@ -1,3 +1,7 @@
+* {
+  text-rendering: optimizeLegibility;
+}
+
 body {
   background: #89CDE6;
   font-family: Roboto;
@@ -7,6 +11,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab";
   font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  font-size: 2rem;
+  max-width: 80rem;
+  margin: auto;
 }
 
 /* Helper Classes */
@@ -17,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .m0 {
   margin: 0;
+}
+
+.mt0 {
+  margin-top: 0
 }
 
 .roboto-slab {
@@ -75,12 +90,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home .description {
-  font-size: 2.4rem;
   margin-top: 1rem;
 }
 
 .home .grass {
-  background: #B3D96D;
+  background: #A8CA5F;
   border-top: 0.1rem solid #333;
   height: 6rem;
   margin-top: -2rem
@@ -94,12 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .home .learn-more {
   width: calc(50% - 1rem);
-}
-
-@media screen and (max-width: 1200px) {
-  .home .slogans .description {
-    font-size: 1.8rem;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -119,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .home .slogans {
     position: relative;
-    background: #B3D96D;
+    background: #A8CA5F;
     border: 0.1rem solid #333;
     border-radius: 1rem;
     padding: 2rem;
@@ -137,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .home .slogans .description {
-    font-size: 2rem;
     text-align: left;
   }
 
@@ -153,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .how {
-  background: #B3D96D;
+  background: #A8CA5F;
 }
 
 @media screen and (max-width: 991px) {
@@ -167,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .how .container .inner-container {
     position: relative;
-    background: #B3D96D;
+    background: #A8CA5F;
     border: 0.1rem solid #333;
     border-radius: 1rem;
     padding: 2rem;

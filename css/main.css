@@ -45,18 +45,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navigation */
 
-.navbar-toggle .icon-bar {
-  background: #333;
-}
-
 .navbar-nav > li > a {
-  background: none !important;
-  color: #fff;
   font-family: "Roboto Slab";
   font-size: 1.8rem;
 }
 
-@media screen and (max-width: 99.1rem) {
+@media screen and (max-width: 991px) {
   .navbar {
     background: #fff;
     opacity: 0.9;
@@ -66,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Home */
 
 .home {
-  margin-top: 5.2rem;
+  margin-top: 6rem;
   position: relative;
 }
 
@@ -100,7 +94,13 @@ h1, h2, h3, h4, h5, h6 {
   width: calc(50% - 1rem);
 }
 
-@media screen and (max-width: 99.1rem) {
+@media screen and (max-width: 1200px) {
+  .home .slogans .description {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .home {
     margin-top: 6.5rem;
   }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media screen and (max-width: 36rem) {
+@media screen and (max-width: 360px) {
   .home .slogans .sustainable {
     font-size: 2.4rem;
   }
@@ -152,4 +152,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .how {
   background: #B3D96D;
+}
+
+@media screen and (max-width: 991px) {
+  .how {
+    background: none;
+  }
+
+  .how .container {
+    padding: 0;
+  }
+
+  .how .container .inner-container {
+    position: relative;
+    background: #B3D96D;
+    border: 0.1rem solid #333;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    z-index: 0;
+  }
 }
